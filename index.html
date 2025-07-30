@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-report</title>
+</head>
+<link rel="stylesheet" href="weatherproject.css"/>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<body>
+  <button class="change">Change theme</button><br />
+    <div class="container">
+        <form id="search-form" class="search-form">
+            <input  type="search" placeholder="Enter a city name" class="search-form-input"  id="search-form-input" required>
+            <input type="submit" value="Search" class="search-form-button" />
+        </form>
+        <main>
+          <div class="weather-data">
+            <div>
+                <h1 class="city" id="city" >Paris</h1>
+                <p class="details">
+                    <span id="current-date">Wednesday 18:30</span>, <span id="description">Scattered clouds</span>
+                    <br>
+                    Humidity: <strong id="humidity">60</strong>%, Wind: <strong id="wind">5 </strong> km/h
+                </p>
+            </div>
+            <div class="weather-details">
+            <span class="icon" id="icon"> ⛅</span>
+            <span class="temperature" id="temperature" >23</span>
+            <span class="unit">&deg;C</span>
+          </div>
+          </div>
+        </main>
+        <footer>
+            💜 This project was coded by 
+            <a href="https://github.com/Kavyasri-0612" target="_blank"
+            >Kavyasri Kandula</a
+          >
+          is
+          <a
+            href="https://github.com/Kavyasri-0612/weatherr-projecttt"
+            target="_blank"
+          >
+            on GitHub</a
+          >
+          and
+          <a href="https://weatherr-projecttt.netlify.app/" target="_blank"
+            >hosted on Netlify</a
+          > 💜
+        </footer>
+
+        <script src="weatherproject.js"></script>
+</body>
+</html>

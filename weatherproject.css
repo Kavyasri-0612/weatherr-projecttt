@@ -1,0 +1,121 @@
+body{
+    background-color:rgb(146, 202, 209);
+    font-family:cursive;
+    font-size: 18px;
+}
+.container{
+    width:50%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px rgba(13, 14, 11, 0.1);
+    border: 3px solid rgb(200, 129, 129);
+}
+.search-form-input{
+    width: 70%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 129, 129);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    background-color:rgb(238, 250, 250)
+}
+.search-form-button{
+    width: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 129, 129);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    background-color:rgb(200, 248, 248);
+    cursor: pointer;
+}
+.weather-data{
+    display: flex;
+    justify-content: space-between;
+
+    
+    margin-top: 20px;
+}
+.city{
+    font-size: 50px;
+    color: rgb(50, 50, 50);
+}
+.details{
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+.details strong{
+    color:rgb(228, 127, 127);
+}
+.weather-details{
+    text-align: right;
+    display: flex;
+    margin-top: 20px;
+}
+.temperature{
+    font-size: 80px;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    
+}
+
+.icon{
+    font-size: 60px;
+    color: rgb(50, 50, 50);
+    
+}
+.unit{
+    font-size: 53px;
+    color: rgb(141, 136, 136);
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+}
+.black {
+  background: #232223;
+}
+.black button {
+  background: white;
+  color: black;
+}
+.black .container {
+  background:#eeeaec;
+  border: 3px solid rgb(137, 105, 105);
+  color:white;
+}
+.black footer{
+    color:#5d5858;
+}
+.black .city{
+    color:#554e4e;
+}
+.black .details{
+    color:#524a4a;
+}
+.black .details strong{
+    color:#d48080;
+}
+.black .temperature{
+    color:#5b5050;
+}   
+.black .unit{
+    color:#544b4b;
+}
+
+.change {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 300px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-color: rgb(3, 40, 52);
+}
+
